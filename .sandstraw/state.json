@@ -1,0 +1,27 @@
+{
+  "sequence": {
+    "task": 0,
+    "initiative": 0,
+    "userstory": 0
+  },
+  "project": {
+    "name": null,
+    "description": null,
+    "initialized": false,
+    "created_at": null
+  },
+  "monitor": {
+    "enabled": false,
+    "mode": "warn_and_review",
+    "exclude_generated_changes": true,
+    "exclude_task_linked_code": true,
+    "initial_index_scan": false,
+    "reindex_enabled": true
+  },
+  "memory": {
+    "project_file": ".sandstraw/project-memory.md",
+    "summary_file": ".sandstraw/project-memory-summary.md",
+    "last_refresh": null,
+    "version": 1
+  }
+}

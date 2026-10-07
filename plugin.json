@@ -1,0 +1,15 @@
+{
+    "name": "sandstraw",
+    "description": "A plugin for sandstraw",
+    "version": "1.0.2",
+    "author": [
+        "Cloudfy"
+    ],
+    "keywords": [
+        "sandstraw",
+        "plugin",
+        "sdlc",
+        "slc",
+        "sdd"
+    ]
+}
