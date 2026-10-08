@@ -1,0 +1,16 @@
+{
+  "hooks": [
+    {
+      "name": "sandstraw-change-monitor",
+      "description": "Flags code changes that are not tied to a Sandstraw initiative, user story, or task while excluding Sandstraw-owned work from duplicate review.",
+      "path": "change-monitor.hook.md",
+      "trigger": "onSave"
+    },
+    {
+      "name": "sandstraw-task-bundle-validator",
+      "description": "Validates that task artifacts include the required implementation package before code changes begin.",
+      "path": "task-bundle-validator.hook.md",
+      "trigger": "onSave"
+    }
+  ]
+}

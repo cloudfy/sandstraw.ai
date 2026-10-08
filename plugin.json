@@ -1,15 +1,46 @@
 {
-    "name": "sandstraw",
-    "description": "Sandstraw plugin for software development lifecycle management.",
-    "version": "1.0.30",
-    "author": [
-        "Cloudfy"
-    ],
-    "keywords": [
-        "sandstraw",
-        "plugin",
-        "sdlc",
-        "slc",
-        "sdd"
-    ]
+  "name": "sandstraw",
+  "description": "Sandstraw plugin for software development lifecycle management.",
+  "version": "1.1.3",
+  "author": [
+    "Cloudfy"
+  ],
+  "keywords": [
+    "sandstraw",
+    "plugin",
+    "sdlc",
+    "slc",
+    "sdd",
+    "github-copilot",
+    "agents"
+  ],
+  "agents": [
+    {
+      "name": "sandstraw-orchestrator",
+      "path": "agents/sandstraw-orchestrator.agent.md",
+      "description": "Coordinates the Sandstraw product lifecycle from initiative to task implementation and enforces implementation-ready task bundles for GitHub Copilot."
+    },
+    {
+      "name": "sandstraw-change-monitor",
+      "path": "agents/sandstraw-change-monitor.agent.md",
+      "description": "Reviews repository drift and reports code changes that are not tied to a Sandstraw initiative, story, or task."
+    },
+    {
+      "name": "sandstraw-initiator",
+      "path": "agents/sandstraw-initiator.agent.md",
+      "description": "Isolated initiator for the Sandstraw product lifecycle."
+    }
+  ],
+  "hooks": [
+    {
+      "name": "sandstraw-task-bundle-validator",
+      "path": "hooks/task-bundle-validator.hook.md",
+      "description": "Validates that task artifacts include the required implementation package before code changes begin."
+    },
+    {
+      "name": "sandstraw-change-monitor",
+      "path": "hooks/change-monitor.hook.md",
+      "description": "Monitors changes in the repository and reports any drift from the Sandstraw initiative, story, or task structure."
+    }
+  ]
 }
