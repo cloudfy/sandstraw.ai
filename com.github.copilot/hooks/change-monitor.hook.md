@@ -16,9 +16,9 @@ This hook applies to changes in the active project codebase, not to files inside
 
 A change is considered Sandstraw-owned when it is tied to one of the following:
 
-- an initiative artifact in `.sandstraw/product/initiatives`
-- a user story artifact in `.sandstraw/product/stories`
-- a task bundle in `.sandstraw/product/tasks`
+- an initiative artifact in `.sandstraw/product/initiatives/<initiative-slug>/`
+- a user story artifact in `.sandstraw/product/initiatives/<initiative-slug>/<story-slug>/`
+- a task bundle in `.sandstraw/product/initiatives/<initiative-slug>/<story-slug>/<task-slug>/`
 - an implementation record or task-linked code change explicitly mapped in memory or state metadata
 
 A change is considered unmapped when no Sandstraw artifact or task linkage exists for the changed file or code area.

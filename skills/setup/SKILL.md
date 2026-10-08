@@ -17,8 +17,6 @@ Ask one at a time:
 Then run:
 ```bash
 mkdir -p .sandstraw/product/initiatives \
-         .sandstraw/product/stories \
-         .sandstraw/product/tasks \
          .sandstraw/state/archive \
          .sandstraw/plans
 cat > .sandstraw/state.json <<'JSON'
@@ -94,12 +92,18 @@ Tasks are the preferred implementation boundary. Each task should be stored as a
 
 Preferred layout:
 ```text
-.sandstraw/product/tasks/001-task-<short-name>/
-  task.md
-  spec.md
-  plan.md
-  tech.md
+.sandstraw/product/initiatives/001-initiative-<short-name>/
+  initiative.md
+  001-story-<short-name>/
+    story.md
+    001-task-<short-name>/
+      task.md
+      spec.md
+      plan.md
+      tech.md
 ```
+
+The project-level state and memory stay at the root of `.sandstraw/` so they remain shared across all initiative work.
 
 > "All set. Here's where things stand: [project name] · IDEA stage."
 

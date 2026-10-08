@@ -6,7 +6,7 @@ trigger: "onSave"
 
 # Sandstraw Task Bundle Validator
 
-When a task is created or updated under `.sandstraw/product/tasks`, verify the task has the required implementation bundle.
+When a task is created or updated under `.sandstraw/product/initiatives/<initiative-slug>/<story-slug>/<task-slug>/`, verify the task has the required implementation bundle.
 
 ## Required files
 

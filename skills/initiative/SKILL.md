@@ -1,5 +1,6 @@
 ---
-spdx-license: AGPL-3.0-or-later
+name: initiative
+license: AGPL-3.0-or-later
 user-invocable: true
 description: "Creates a business-first initiative brief in markdown, grounded in project memory, prior initiative work, and explicit clarification questions."
 ---

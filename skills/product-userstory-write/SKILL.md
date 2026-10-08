@@ -1,7 +1,11 @@
 ---
-spdx-license: AGPL-3.0-or-later
+name: product-userstory-write
+license: AGPL-3.0-or-later
 user-invocable: true
 description: "Creates markdown user stories from a clarified initiative and writes them to the Sandstraw product stories folder."
+allowed-tools: Read, Grep, Glob
+memory: project
+context: fork
 ---
 
 # Sandstraw Product User Story Writer Skill

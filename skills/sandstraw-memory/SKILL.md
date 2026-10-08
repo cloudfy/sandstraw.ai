@@ -20,9 +20,12 @@ Whenever a new initiative or story is created, this skill should be triggered im
 
 - `.sandstraw/project-memory.md`
 - `.sandstraw/project-memory-summary.md`
-- `.sandstraw/product/initiatives/*.md`
-- `.sandstraw/product/stories/*.md`
-- `.sandstraw/product/tasks/*.md`
+- `.sandstraw/product/initiatives/**/initiative.md`
+- `.sandstraw/product/initiatives/**/story.md`
+- `.sandstraw/product/initiatives/**/task.md`
+- `.sandstraw/product/initiatives/**/spec.md`
+- `.sandstraw/product/initiatives/**/plan.md`
+- `.sandstraw/product/initiatives/**/tech.md`
 - `.sandstraw/plans/*.md`
 - `.sandstraw/state.json`
 

@@ -30,10 +30,10 @@ This agent owns sequencing and validation for the Sandstraw process without repl
      - `plan.md`
      - `tech.md`
    - Prefer the bundle layout:
-     - `.sandstraw/product/tasks/001-task-name/task.md`
-     - `.sandstraw/product/tasks/001-task-name/spec.md`
-     - `.sandstraw/product/tasks/001-task-name/plan.md`
-     - `.sandstraw/product/tasks/001-task-name/tech.md`
+     - `.sandstraw/product/initiatives/001-initiative-name/001-story-name/001-task-name/task.md`
+     - `.sandstraw/product/initiatives/001-initiative-name/001-story-name/001-task-name/spec.md`
+     - `.sandstraw/product/initiatives/001-initiative-name/001-story-name/001-task-name/plan.md`
+     - `.sandstraw/product/initiatives/001-initiative-name/001-story-name/001-task-name/tech.md`
 
 4. Keep responsibilities separated.
    - Initiative artifacts stay business-facing.
