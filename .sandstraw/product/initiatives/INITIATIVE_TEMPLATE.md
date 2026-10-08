@@ -53,6 +53,8 @@ Summarize supporting evidence from project memory, prior initiative work, and ex
 
 This initiative is ready for story distillation when the business problem, scope, stakeholders, constraints, and open questions are clear.
 
+Action: hand off to the product-userstory-reader and product-userstory-write skills to split this initiative into user stories.
+
 Recommended next step:
 - read this initiative with the product-userstory-reader skill
 - write user stories with the product-userstory-write skill

@@ -3,7 +3,6 @@ name: product-userstory-write
 license: AGPL-3.0-or-later
 user-invocable: true
 description: "Creates markdown user stories from a clarified initiative and writes them to the Sandstraw product stories folder."
-allowed-tools: Read, Grep, Glob
 memory: project
 context: fork
 ---
@@ -26,11 +25,12 @@ Each user story must be written in a business-first format and remain ready for 
 ## Rules
 
 1. Never invent missing acceptance criteria.
-2. Keep the story grounded in the initiative and the project memory.
-3. Write the story in business terms, not technology terms.
-4. If a story is still ambiguous, list the missing information as open questions.
-5. Each story should be independently understandable.
-6. A user story may later be split into one or more implementation tasks, but the story itself should remain at the product value level.
+2. If the initiative or story summary leaves open assumptions or critical gaps, ask clarifying questions before writing the story instead of guessing.
+3. Keep the story grounded in the initiative and the project memory.
+4. Write the story in business terms, not technology terms.
+5. If a story is still ambiguous, list the missing information as open questions.
+6. Each story should be independently understandable.
+7. A user story may later be split into one or more implementation tasks, but the story itself should remain at the product value level.
 
 ## Supported output formats
 

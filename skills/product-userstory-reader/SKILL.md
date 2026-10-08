@@ -45,12 +45,13 @@ The reader should detect which format is present before extracting information. 
 ## Rules
 
 1. Never assume missing requirements.
-2. Read prior initiative and story documents before making deductions.
-3. Keep the analysis in business language.
-4. Separate facts, observations, and unresolved questions.
-5. Identify candidate user stories, but do not force a story if the initiative is still ambiguous.
-6. Preserve the initiative’s intent instead of rewriting it into a technical design.
-7. Normalize both formats into the same canonical fields: actor, goal, value, acceptance criteria, scenario steps, and unresolved questions.
+2. If the initiative is vague, ambiguous, or missing critical facts, ask clarifying questions instead of inventing requirements.
+3. Read prior initiative and story documents before making deductions.
+4. Keep the analysis in business language.
+5. Separate facts, observations, and unresolved questions.
+6. Identify candidate user stories, but do not force a story if the initiative is still ambiguous.
+7. Preserve the initiative’s intent instead of rewriting it into a technical design.
+8. Normalize both formats into the same canonical fields: actor, goal, value, acceptance criteria, scenario steps, and unresolved questions.
 
 ## Process
 

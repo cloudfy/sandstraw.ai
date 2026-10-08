@@ -41,13 +41,15 @@ If no prior memory exists, explicitly note: "No existing Sandstraw memory was fo
 
 1. Never assume requirements.
 2. Never invent missing facts.
-3. Keep the conversation in business context, user flows, value, and outcomes.
-4. Treat technical details as context only when the user clearly confirms them.
-5. Ask clarifying questions one at a time.
-6. Summarize what was heard before moving to the next question.
-7. Convert any technical inputs into business language such as process steps, user outcomes, and stakeholder value.
-8. If there is uncertainty, add it to an explicit "Open Questions" section rather than guessing.
-9. The final artifact must be markdown and stored in `.sandstraw/product/initiatives`.
+3. Do not draft or finalize the initiative from a vague prompt. Interview the user, challenge assumptions, and ask clarifying questions until the critical business problem, scope, constraints, and stakeholder intent are clear.
+4. If there are assumptions, missing facts, or unresolved gaps, stop and ask the user for the missing information instead of guessing.
+5. Keep the conversation in business context, user flows, value, and outcomes.
+6. Treat technical details as context only when the user clearly confirms them.
+7. Ask clarifying questions one at a time.
+8. Summarize what was heard before moving to the next question.
+9. Convert any technical inputs into business language such as process steps, user outcomes, and stakeholder value.
+10. If there is uncertainty, add it to an explicit "Open Questions" section rather than guessing.
+11. The final artifact must be markdown and stored in `.sandstraw/product/initiatives`.
 
 ## Interview flow
 
@@ -144,3 +146,7 @@ After saving the initiative, refresh the global project memory with the new init
 ## Final behavior
 
 If the user’s input is still too vague, keep interviewing rather than guessing. The goal is to create a clear, business-ready initiative that can be distilled into user stories later without hidden assumptions.
+
+Before moving to story work, confirm the stated initiative is grounded in the user interview and that all critical assumptions or missing facts are captured as open questions. If the initiative is still uncertain, return to the user and ask the missing question rather than writing a final version.
+
+Action: hand off to the product-userstory-reader and product-userstory-write skills to split this initiative into user stories.

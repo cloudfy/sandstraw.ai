@@ -95,3 +95,9 @@ If the task bundle is incomplete, the task is not implementation-ready.
 Use specialized skills for generation and a single orchestrator agent for sequencing. Keep initiative and story files business-facing, and keep task artifacts implementation-facing.
 
 This keeps Sandstraw structured, reusable, and ready for GitHub Copilot to execute within a clear delivery workflow.
+
+## Tools and implementation constraints
+
+- Do not use Python, and do not add any Python (.py) scripts.
+- If scripts are needed, implement them as PowerShell (.ps1) scripts.
+- Prefer PowerShell for automation, repository maintenance, and scripting tasks unless the project explicitly requires another runtime.
