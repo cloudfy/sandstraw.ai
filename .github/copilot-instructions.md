@@ -13,13 +13,19 @@ Use this repository as a structured product-to-implementation workflow for Sands
 
 ## Task bundle requirement
 
-Every task at `.sandstraw/product/tasks` must include the implementation bundle before it is considered ready for code work.
+Every task under the initiative/story/task structure must include the implementation bundle before it is considered ready for code work.
 
 Required files:
 - `task.md` or equivalent task summary
 - `spec.md`
 - `plan.md`
 - `tech.md`
+
+Preferred layout:
+- `.sandstraw/product/initiatives/<initiative-slug>/<story-slug>/<task-slug>/task.md`
+- `.sandstraw/product/initiatives/<initiative-slug>/<story-slug>/<task-slug>/spec.md`
+- `.sandstraw/product/initiatives/<initiative-slug>/<story-slug>/<task-slug>/plan.md`
+- `.sandstraw/product/initiatives/<initiative-slug>/<story-slug>/<task-slug>/tech.md`
 
 If a flat-file pattern is needed for compatibility, name the companion files as:
 - `<task-name>-spec.md`

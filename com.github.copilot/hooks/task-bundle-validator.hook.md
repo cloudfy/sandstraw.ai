@@ -24,6 +24,8 @@ The preferred pattern is a task folder with these exact files. Flat-file variant
 - If the task bundle is missing any of the required files, raise a warning.
 - If a task is being treated as implementation-ready but lacks the bundle, block the handoff to implementation until the bundle is created.
 - If a task summary references a story or initiative but does not contain the implementation files, warn that the handoff is incomplete.
+- If a story has multiple generated tasks, ensure they are ordered by dependency and not treated as a single flat task.
+- Flag tasks that are too broad, mix multiple concerns, or skip prerequisite model/schema work when that work is required.
 - Keep initiative and story files separate from task implementation context.
 
 ## Suggested warning

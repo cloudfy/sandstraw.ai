@@ -143,6 +143,21 @@ Do not finalize the initiative until:
 
 After saving the initiative, refresh the global project memory with the new initiative’s business context, constraints, and relevant technical or architectural context using the Sandstraw Memory skill.
 
+## After the Completion
+
+Before you finish or say you are done, you MUST:
+
+1. Summarize what was done.
+2. Ask the user to continue with Story Distillation and User Story generation.
+
+Example format:
+
+---
+**Next steps**
+
+[Y] Start Story Distillation and User Story generation.
+[N] Not now.
+ 
 ## Final behavior
 
 If the user’s input is still too vague, keep interviewing rather than guessing. The goal is to create a clear, business-ready initiative that can be distilled into user stories later without hidden assumptions.

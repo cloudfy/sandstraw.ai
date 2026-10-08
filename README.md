@@ -39,12 +39,12 @@ Each task is expected to have a small implementation bundle before it is treated
 ```
 
 The bundle should include:
-- `task.md` — brief summary of the task and the acceptance criteria
+- `task.md` — brief summary of the task, priority, dependencies, and acceptance criteria
 - `spec.md` — agreed behavior, constraints, edge cases, and scope boundaries
 - `plan.md` — implementation sequence, validation steps, and checkpoints
 - `tech.md` — architecture, stack, integrations, libraries, and key technical decisions
 
-The task bundle remains grouped in one task folder so the implementation context stays together and no task is split across sibling files.
+The task bundle remains grouped in one task folder so the implementation context stays together and no task is split across sibling files. A single story may produce several ordered task bundles, and the dependency order must reflect foundation-before-consumer sequencing.
 
 ## End-to-end flow
 

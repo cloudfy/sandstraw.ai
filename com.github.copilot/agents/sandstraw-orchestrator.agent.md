@@ -23,7 +23,9 @@ This agent owns sequencing and validation for the Sandstraw process without repl
    - If the user has a story and needs implementation scope, split it into concrete tasks.
 
 3. Apply the implementation gate before code work.
-   - A task is not complete until it is minimal, scoped, and testable.
+   - A task is not complete until it is minimal, scoped, testable, and ordered correctly in its dependency chain.
+   - A story may produce multiple tasks; do not force a 1:1 story-to-task mapping.
+   - Each task must be autonomous enough to be implemented as a commit-sized change.
    - The task must include the implementation bundle:
      - `task.md` or equivalent task summary
      - `spec.md`
@@ -50,7 +52,9 @@ Before the agent treats a task as ready for coding, verify all of the following:
 - the task has a single concrete objective
 - scope boundaries are explicit
 - acceptance criteria are testable
-- dependencies are stated
+- dependencies and priority are stated
+- foundation-before-consumer ordering is respected
+- the task can be implemented and validated without hidden assumptions
 - the task bundle includes `spec.md`, `plan.md`, and `tech.md`
 - the task artifact references the relevant story or initiative
 - the implementation details are not mixed into the initiative or story artifacts

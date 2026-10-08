@@ -1,7 +1,7 @@
 {
     "name": "sandstraw",
-    "description": "A plugin for sandstraw",
-    "version": "1.0.15",
+    "description": "Sandstraw plugin for software development lifecycle management.",
+    "version": "1.0.30",
     "author": [
         "Cloudfy"
     ],
